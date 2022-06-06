@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3500;
 const indeRoute = require('./routes/index');
 const mongoose = require('mongoose');
-const mongoDbPass = `373ftnn5123`;
+const mongoDbPass = `8080`;
 
 mongoose.connect(
     `mongodb+srv://ansh1515:${mongoDbPass}@cluster0.udk6h.mongodb.net/?retryWrites=true&w=majority`, 
